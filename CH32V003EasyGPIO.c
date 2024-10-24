@@ -1,3 +1,5 @@
+// CH32V003EasyGPIO V1.0
+
 #include "debug.h"
 #include "CH32V003EasyGPIO.h"
 #include "ch32v00x_gpio.h"
