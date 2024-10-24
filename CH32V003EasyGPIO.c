@@ -1,9 +1,5 @@
-/*
- * gpioHelper.c
- */
-
 #include "debug.h"
-#include "ch32_gpioHelper.h"
+#include "CH32V003EasyGPIO.h"
 #include "ch32v00x_gpio.h"
 
 // Stores the mode settings of various pins, such as INPUT, OUTPUT
