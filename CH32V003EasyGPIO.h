@@ -1,10 +1,5 @@
-/*
- * gpioHelper.h
- *
- */
-
-#ifndef USER_GPIOHELPER_H_
-#define USER_GPIOHELPER_H_
+#ifndef CH32V003EASYGPIO_H_
+#define CH32V003EASYGPIO_H_
 
 #include "ch32v00x_gpio.h"
 #include <stdint.h>
@@ -62,4 +57,4 @@ void digitalWriteRaw(GPIO_TypeDef* port, uint16_t rawPinVal, uint8_t level);
 uint8_t digitalRead(uint8_t pin);
 uint8_t digitalReadRaw(GPIO_TypeDef* port, uint16_t rawPinVal);
 
-#endif /* USER_GPIOHELPER_H_ */
+#endif /* CH32V003EASYGPIO_H_ */
